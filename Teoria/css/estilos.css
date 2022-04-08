@@ -3,6 +3,8 @@
 
 body {
     background: skyblue;
+    /*background: url('img/descarga.jpg');
+    background-repeat: repeat;*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -38,4 +40,24 @@ section h2 {
 #h5 {
     color: darkkhaki;
     font-size: 30px;
+}
+
+
+/*Medidas absolutas: tamaño exacto que le pongamos
+Medidas relativas: px, em en proporcion al
+contenedor padre,rem, % para ancho*/
+
+
+/*Para contenido responsivo mejor usar medidas relativas
+*/
+
+.fondo {
+    /* background: #fde4cf;*/
+    background: rgb(46%, 40%, 50%, 0.5);
+    width: 4cm;
+    height: 4cm;
+}
+
+.fondo h4 {
+    font-size: 1.5em;
 }
