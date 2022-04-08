@@ -1,0 +1,41 @@
+/*Se puede tener tantos estilos como se necesiten
+*se tomará el ultimo estilo establecido*/
+
+body {
+    background: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: brown;
+    font-size: 50px;
+}
+
+p {
+    color: blue;
+}
+
+h2,
+h3,
+h5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+section h2 {
+    color: coral;
+}
+
+.parrf3 {
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+
+/**NO ES RECOMENDABLE USAR ID, solo se 
+* usa para programar*/
+
+#h5 {
+    color: darkkhaki;
+    font-size: 30px;
+}
