@@ -61,3 +61,36 @@ contenedor padre,rem, % para ancho*/
 .fondo h4 {
     font-size: 1.5em;
 }
+
+
+/**Enlaces:
+Etiqueta clave, navegavilidad, por defecto viene
+en color azul
+link cuando hago clic */
+
+a:link {
+    color: aqua;
+    text-decoration: overline;
+}
+
+
+/*cuando ya los visite*/
+
+a:visited {
+    color: chocolate;
+}
+
+
+/*cuando pase el mouse sobre el enlace*/
+
+a:hover {
+    color: crimson;
+}
+
+
+/*cuando tengo menu estoy sobre pag activa*/
+
+a:active {
+    text-decoration: double;
+    color: darksalmon;
+}
