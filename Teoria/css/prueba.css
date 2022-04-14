@@ -1,0 +1,12 @@
+h1 {
+    font-size: 16px;
+}
+
+
+/**DOM
+Manipular todo el contenido HTML. Document Object Model
+Todo la estructura HTML, estructura Jerarquica, EL nodo principal 
+es el HTML, cada elemento recibe el nombre de nodo
+Manipular cada elelemto del DOM, a travez de JavaScript
+modificar el contenido cambiar las propiedades de un 
+elemento*/

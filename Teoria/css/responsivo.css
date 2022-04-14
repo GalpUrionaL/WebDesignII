@@ -1,0 +1,73 @@
+* {
+    /**Normalizacion Gral*/
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: sandybrown;
+}
+
+.contenedor {
+    background: #cb997e;
+    margin: 1%;
+    width: 100%;
+    max-width: 1000px;
+    /*display: flex;*/
+}
+
+header {
+    background: #6d6875;
+    width: 100%;
+}
+
+main {
+    background: #fff;
+    width: 70%;
+}
+
+aside {
+    background: #003049;
+    width: 30%;
+}
+
+
+/*la propiedad position en relative, es necesario
+usar dos right top left bottom.
+
+Absolute => al igual que el anterior usamos los mismos,
+se usa para logotipos.
+
+fixed => aunque se mueva la pagina se queda fijo,
+al igual que el anterior debo darle las coordenadas
+menus de nav.
+
+float => ya nos es position, 
+se usa como sus valores right left.
+
+Jquery => libreria de animacion,
+
+display:
+
+flex => acomoda el contenido automaticamente
+deacuerdo al contenedor padre e hijo
+
+ELEMENTOS PADRE cambiar el orden
+
+flex-direction: acomodar contenido row = uno a lado del otro
+en column = uno debajo del otro.
+flex-wrap: wrap hago que no se distorcione el tamaño.
+ flow => combina las dos anteriores ej: flex-flow: row wrap.
+
+ JUSTIFY - CONTENT
+existen los valores de center, la que viene por defecto es flex-start
+hay el opuesto flex-end. space-between ajusta al contenedor
+espacio entre ellos, space-around espacio alrededor.
+
+align-items: alinea contenido
+flex-starts al eje y
+flex-end eje x
+
+repasar grid antes de ver bootstrap
+*/
