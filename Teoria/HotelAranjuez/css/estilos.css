@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    padding: 90px 20px 0;
+}
+
+.header {
+    background: gray;
+    height: 80 px;
+    position: fixed;
+    /*posicion fija apesar de bajar la pag*/
+    width: 100%;
+    top: 0;
+    left: 0;
+    /*especificamos la posicion fija*/
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 1%;
+    border-radius: 100px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.navMenu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.navB {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+a:hover {
+    background: update;
+}
