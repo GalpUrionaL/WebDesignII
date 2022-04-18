@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+</head>
+
+<body>
+    <!-- 
+        Tres modelos de eventos
+         * Modelo de Eventos Básicos
+           -Funciona en todos los navegadores, no es el más utilizado
+           
+         * Modelo de Eventos Estandar // usaremos en el módulo
+           -Permite más funcionalidad
+           - Funciona en casi todos los navegadores
+
+         * Modelo de Eventos de Internet Explorer
+           -IE 7.
+           - Desarrollado por Microsoft exclusivamente para su navegador
+           - Edge
+     -->
+
+    <!-- <form action="" class="modeloBasico">
+        <button onclick="Saludar()">Saludar</button>
+    </form> -->
+
+    <!-- <form action="">
+        <button id="btn-saludo">Saludo</button>
+    </form> -->
+
+    <h1 id="titulo">Eventos</h1>
+
+    <button id="btn">Crear caja</button>
+
+    <section id="contenedor"></section>
+
+    <script>
+        var btn = document.getElementById('btn');
+
+        // agregar el evento
+        btn.addEventListener('click', CrearCaja);
+
+        function CrearCaja() {
+            var contenedor = document.getElementById('contenedor');
+
+            //crear un elemento
+            var caja = document.createElement('div');
+
+            // poner propiedades
+            caja.className = 'caja';
+
+            //añadir 
+            contenedor.appendChild(caja);
+
+
+        }
+        // Cuando se ejecute un evento
+        /*function Saludar() {
+            alert('Hola!');
+        }*/
+
+        // Estandar
+        /*let btnSaludo = document.getElementById('btn-saludo');
+
+        let titulo = document.getElementById('titulo');
+        //agrego un evento de escucha
+        // Permite más eventos a travez del DOM
+        btnSaludo.addEventListener('mouseover', Saludar);
+        btnSaludo.addEventListener('click', Saludo2);
+
+        /*titulo.addEventListener('click', Saludo2);*/
+        /*Eventos más utilizados
+            click
+            focus en form fuera del form
+            blur para form
+            change cambios
+            onload termina la carga
+            mouseover pasa sobre el elemento
+            mouseout fuera del elemento
+            resize cambio de tamaño
+            submit enviar
+        */
+
+        /*function Saludar() {
+            alert('Hola!');
+        }
+
+        function Saludo2() {
+            alert('Segundo evento del Titulo');
+        }*/
+
+        /*eliminar un evento*/
+        btn.removeEventListener('click', CrearCaja);
+    </script>
+
+    <style>
+        .caja {
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            /*apariencia de que se pueda hacer click*/
+            background: salmon;
+            margin: 3%;
+            display: inline-block;
+            /*elemento de tipo bloque*/
+        }
+    </style>
+</body>
+
+</html>
