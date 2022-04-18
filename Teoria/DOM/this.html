@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,45 @@
 </head>
 
 <body>
+    <style>
+        .caja {
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            /*apariencia de que se pueda hacer click*/
+            background: salmon;
+            margin: 3%;
+            color: #fff;
+            text-align: center;
+            margin: 2%;
+            display: inline-block;
+            /*elemento de tipo bloque*/
+        }
+        
+        .naranja {
+            background: seagreen;
+        }
+    </style>
+    <div class="caja">1</div>
+    <div class="caja">2</div>
+    <div class="caja">3</div>
+    <div class="caja">4</div>
 
+    <script>
+        let cajas = document.getElementsByClassName('caja'); // arreglo
+        /*function Color() {
+            cajas[3].classList.toggle('naranja');
+        }*/
+        //cajas[0].addEventListener('click', Color);
+        for (let i = 0; i <= cajas.length; i++) {
+            cajas[i].addEventListener('click', Color);
+        }
+
+        function Color() {
+            // el mouse pase manipular cualquier elemento del DOM
+            this.classList.toggle('naranja');
+        }
+    </script>
 </body>
 
 </html>
