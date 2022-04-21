@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion de DOM con JQuery</title>
+    <script src="jquery-3.6.0.js"></script>
+    <style>
+        .caja {
+            width: 150px;
+            height: 150px;
+            background: #000;
+            margin: 10px;
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            /* uno a lado del otro */
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja" id="tercera">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+    </div>
+
+    <script>
+        $(function() {
+            // alert('funciona');
+            /**Manipulacion del DOM
+             * Parent contenedor padre
+             */
+            //$('#tercera').parent(); // ddevuelve el elemento padre
+            /*$('#tercera').parent().css({
+                background: '#452182'
+            });*/
+            //$('#tercera').parents(); // todos los padres
+
+            //Children
+            //$('.contenedor').children(); //devuelve arreglo de todos sus hijos
+
+            /*$('.contenedor').children().css({
+                color: '#863215'
+            });*/
+
+            //Find
+            /*$('.contenedor').find('div.caja').css({
+                color: '#ccc'
+            });*/
+
+            //$('.contenedor').find('div.caja').hide(); // con efectos
+
+            //Siblins a los hermanos de un elemento
+            //$('#tercera').siblings(); // los hermanos del elemento
+            //$('#tercera').siblings().fadeOut(3000); // con efectos
+
+            //Next Prev
+            // $('#tercera').next().fadeOut(2000);
+
+            // Prev
+            /*$('#tercera').prev().css({
+                backgound: 'green'
+            });*/
+
+            //$('#tercera').nextAll().css({});
+
+            /*$('#tercera').prevAll().css({
+                background: '#345678'
+            })*/
+
+            /** FILTROS 
+             * first
+             */
+
+            /*$('.caja').first().css({
+                color: 'red'
+            });*/
+
+            /*$('.caja').last().css({
+                color: 'red'
+            })*/
+
+            //EQ a un elemento especifico equals
+            /*$('.caja').eq(2).css({
+                color: 'red'
+            });*/
+
+            //Filter nos permite filtrar entre los elementos mediante un criterio
+            // $('.caja').filter('#tercera').hide(3000);
+
+            //not  buscar menos esta
+            // $('.caja').not('#tercera').css({
+            //     background: 'pink'
+            // });
+
+            var cjas = $('.caja'); // aconsejable guardarlo en una variable
+
+            cjas.hide(4000);
+        });
+    </script>
+
+</body>
+
+</html>
