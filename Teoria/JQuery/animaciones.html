@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones JQuery</title>
+    <script src="jquery-3.6.0.js"></script>
+    <style>
+        .caja {
+            width: 200px;
+            height: 200px;
+            background: #789321;
+            margin-top: 20px;
+        }
+        /*Animacion de color en css*/
+        
+        @keyframes colores {
+            from {
+                background: #000
+            }
+            ;
+            to {
+                background: #789321
+            }
+        }
+        
+        .animacion {
+            animation: colores 3s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="boton">Animar</button>
+    <div class="caja"></div>
+
+    <script>
+        $(function() {
+            //alert('ya funciona');
+            // dentro de esto podemos animar
+            $('#boton').on('click', function() {
+                // Parametros de animacion
+                /** $('selector').animate({objeto},velocidad,callback)*/
+                $('.caja').animate({
+                    //estilos css tambien puedo aplicar
+                    // width: '+=300px',
+                    marginLeft: '+=20px',
+                    //margin: '30px'
+                    opacity: '0.5',
+                    // no soporta la animacion de color
+                    //background: '#000'
+
+                }, 1500);
+                $('.caja').toggleClass('animacion');
+            });
+            $('.caja').animate({
+                marginTop: '+=200px',
+            });
+        });
+    </script>
+</body>
+
+</html>
