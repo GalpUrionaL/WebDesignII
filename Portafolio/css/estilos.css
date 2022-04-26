@@ -19,10 +19,15 @@ header {
     left: 500px;
 }
 
-h1 {
+main h1 {
     text-align: center;
     color: #76c893;
     font-size: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #76c893;
 }
 
 header img {
@@ -54,23 +59,29 @@ main {
     margin-top: 40px;
     margin-left: 100px;
     text-transform: uppercase;
+    color: #15a2a2;
+    text-shadow: 1px 1px #000;
+    cursor: pointer;
 }
 
 .actividades {
     margin-left: 350px;
     text-transform: uppercase;
+    color: #15a2a2;
+    text-shadow: 1px 1px #000;
 }
 
 .pizarra {
     width: 100%;
-    height: 650px;
+    height: 750px;
     background-image: url(https://img.freepik.com/foto-gratis/rosa-rosa-sobre-fondo-blanco-madera-vintage_165109-255.jpg);
     opacity: .7;
     display: flex;
 }
 
 .datosP {
-    width: auto;
+    width: 50%;
+    margin: 1%;
 }
 
 .datosP h2,
@@ -92,8 +103,8 @@ p {
 }
 
 .perfil img {
-    width: 25%;
-    margin-left: 30px;
+    width: 40%;
+    margin-left: 25px;
 }
 
 .tareas {
@@ -135,7 +146,7 @@ a {
     font-size: 18px;
 }
 
-footer {
+.footer {
     margin-top: 1%;
     margin-left: 60px;
     width: 90%;
@@ -144,16 +155,16 @@ footer {
     display: flex;
 }
 
-footer img {
+.footer img {
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 40px;
     width: 50%;
     display: inline-block;
 }
 
 .sobreNosotros {
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 110px;
 }
 
 .sobreNosotros h1 {
@@ -167,17 +178,30 @@ footer img {
 
 .sobreNosotros cite {
     margin-left: 70px;
-    font-style: oblique;
+    font-style: italic;
     font-weight: bold;
     font-size: 20px;
 }
 
 .box {
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 180px;
 }
 
 .box h1 {
     margin: 2%;
     font-size: 20px;
+}
+
+.final {
+    margin-left: 60px;
+    width: 90%;
+    height: 30px;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-suelo-textura-madera-blanca_53876-63634.jpg?size=626&ext=jpg&uid=R69741999&ga=GA1.2.1765308560.1650971654);
+}
+
+.final small {
+    margin-left: 300px;
+    font-weight: bold;
+    font-size: 15px;
 }
