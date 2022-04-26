@@ -6,12 +6,15 @@ $(function() {
             'top': '-200px'
         });
         $(this).animate({
-            'top': '20px'
+            'top': '70px'
         }, 1500);
     });
     $('.perfil').hide();
     $('.tareas').hide();
     $('.perfilP').click(function() {
-        $('.perfil').toggle();
-    })
+        $('.perfil').toggle(2000);
+    });
+    $('.actividades').click(function() {
+        $('.tareas').toggle(2000);
+    });
 });

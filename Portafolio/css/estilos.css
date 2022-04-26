@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,8 +10,7 @@ body {
 }
 
 header {
-    width: 90%;
-    margin-left: 60px;
+    width: 100%;
 }
 
 .tituloh {
@@ -35,18 +35,19 @@ header img {
 }
 
 main {
-    margin-left: 60px;
-    width: 90%;
+    width: 100%;
 }
 
 .menu {
     display: flex;
+    justify-content: space-between;
 }
 
 .menu ul {
     width: 100%;
     height: 100px;
-    background-image: url(https://img.freepik.com/foto-gratis/rosa-rosa-sobre-fondo-blanco-madera-vintage_165109-255.jpg);
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-suelo-textura-madera-blanca_53876-63634.jpg?size=626&ext=jpg&uid=R69741999&ga=GA1.2.1765308560.1650971654);
+    opacity: 0.4;
 }
 
 .menu ul li {
@@ -57,7 +58,7 @@ main {
 
 .perfilP {
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 150px;
     text-transform: uppercase;
     color: #15a2a2;
     text-shadow: 1px 1px #000;
@@ -65,23 +66,24 @@ main {
 }
 
 .actividades {
-    margin-left: 350px;
+    margin-left: 400px;
     text-transform: uppercase;
     color: #15a2a2;
     text-shadow: 1px 1px #000;
+    cursor: pointer;
 }
 
 .pizarra {
     width: 100%;
-    height: 750px;
+    height: 800px;
     background-image: url(https://img.freepik.com/foto-gratis/rosa-rosa-sobre-fondo-blanco-madera-vintage_165109-255.jpg);
-    opacity: .7;
     display: flex;
+    justify-content: space-between;
 }
 
 .datosP {
     width: 50%;
-    margin: 1%;
+    margin-left: 20px;
 }
 
 .datosP h2,
@@ -104,12 +106,14 @@ p {
 
 .perfil img {
     width: 40%;
+    margin-top: 15px;
     margin-left: 25px;
 }
 
 .tareas {
     width: 50%;
     margin-top: 15px;
+    /* margin-left: 750px; */
     display: block;
 }
 
@@ -148,8 +152,7 @@ a {
 
 .footer {
     margin-top: 1%;
-    margin-left: 60px;
-    width: 90%;
+    width: 100%;
     height: 130px;
     background: #6d6875;
     display: flex;
@@ -194,8 +197,7 @@ a {
 }
 
 .final {
-    margin-left: 60px;
-    width: 90%;
+    width: 100%;
     height: 30px;
     background-image: url(https://img.freepik.com/foto-gratis/fondo-suelo-textura-madera-blanca_53876-63634.jpg?size=626&ext=jpg&uid=R69741999&ga=GA1.2.1765308560.1650971654);
 }
@@ -204,4 +206,178 @@ a {
     margin-left: 300px;
     font-weight: bold;
     font-size: 15px;
+}
+
+@media screen and (max-width:900px) {
+    .tituloh {
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+    .menu ul li {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .perfilP {
+        margin-top: 40px;
+        margin-left: 100px;
+        text-transform: uppercase;
+        color: #15a2a2;
+        text-shadow: 1px 1px #000;
+        cursor: pointer;
+    }
+    .actividades {
+        margin-top: 20px;
+        margin-left: 200px;
+        text-transform: uppercase;
+        color: #15a2a2;
+        text-shadow: 1px 1px #000;
+        cursor: pointer;
+    }
+    .pizarra {
+        width: 100%;
+        height: 550px;
+        background-image: url(https://img.freepik.com/foto-gratis/rosa-rosa-sobre-fondo-blanco-madera-vintage_165109-255.jpg);
+        display: flex;
+        justify-content: space-between;
+    }
+    .datosP {
+        width: 50%;
+        margin-left: 30px;
+    }
+    .footer img {
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 50%;
+        display: inline-block;
+    }
+    .sobreNosotros {
+        width: 35%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .sobreNosotros h1 {
+        margin: 2%;
+        font-size: 18px;
+    }
+    .sobreNosotros cite {
+        margin-left: 50px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .box {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .box h1 {
+        margin: 2%;
+        font-size: 18px;
+    }
+    .final small {
+        margin-left: 150px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .menu ul li {
+        display: inline;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .menu ul {
+        width: 100%;
+        height: 70px;
+        background-image: url(https://img.freepik.com/foto-gratis/fondo-suelo-textura-madera-blanca_53876-63634.jpg?size=626&ext=jpg&uid=R69741999&ga=GA1.2.1765308560.1650971654);
+        opacity: 0.4;
+    }
+    .perfilP {
+        margin-top: 40px;
+        margin-left: 45px;
+        text-transform: uppercase;
+        color: #15a2a2;
+        text-shadow: 1px 1px #000;
+        cursor: pointer;
+    }
+    .actividades {
+        margin-left: 90px;
+        text-transform: uppercase;
+        color: #15a2a2;
+        text-shadow: 1px 1px #000;
+        cursor: pointer;
+    }
+    .tareas ul {
+        width: 100%;
+        height: auto;
+        margin-right: 70px;
+    }
+    .footer {
+        margin-top: 1%;
+        width: 100%;
+        height: 170px;
+        background: #6d6875;
+        display: flex;
+    }
+    .sobreNosotros {
+        width: 38%;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    .sobreNosotros cite {
+        margin-left: 10px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .box {
+        width: 20%;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .final small {
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:493px) {
+    .menu ul li {
+        display: inline;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .perfilP {
+        margin-top: 40px;
+        margin-left: 25px;
+        text-transform: capitalize;
+        color: #15a2a2;
+        text-shadow: 1px 1px #000;
+        cursor: pointer;
+    }
+    .actividades {
+        margin-left: 50px;
+        text-transform: capitalize;
+        color: #15a2a2;
+        text-shadow: 1px 1px #000;
+        cursor: pointer;
+    }
+    .footer {
+        margin-top: 1%;
+        width: 100%;
+        height: 200px;
+        background: #6d6875;
+        display: flex;
+    }
+    .final {
+        height: 50px;
+    }
+    .final small {
+        margin-left: 0px;
+        font-weight: bold;
+        font-size: 15px;
+    }
 }
