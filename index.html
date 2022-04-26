@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portal de Tareas">
-    <link rel="shortcut icon" href="Portafolio/img/img_favicon.jpg.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Portafolio/img/logoFavicon.jpg.ico" type="image/x-icon">
     <link rel="stylesheet" href="Portafolio/css/normalize.css">
     <link rel="stylesheet" href="Portafolio/css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,19 +23,65 @@
         <img src="Portafolio/img/Desarrollo-y-diseno-web-1080x675.jpg" alt="Portada de Diseño Web II">
     </header>
     <main>
-        <div>
+        <div class="menu">
             <ul>
-                <li><a href="#">Exposición</a></li>
-                <li><a href="#">Práctica # 1</a></li>
-                <li><a href="#">Práctica # 2</a></li>
-                <li><a href="#">Hotel Aranjuez</a></li>
-                <li><a href="#">Proyecto # 2</a></li>
+                <li class="perfilP">Perfil del Estudiante</li>
+                <li class="actividades">Actividades del Estudiante</li>
             </ul>
+        </div>
+        <div class="pizarra">
+            <div class="perfil">
+                <img src="Portafolio/img/20210402_213513.jpg" alt="Foto de perfil">
+                <div class="datosP">
+                    <h2>Datos Personales</h2>
+                    <p>Nombre Completo: Galia Paola Uriona Larraín</p><br>
+                    <p>Materia: Diseño Web II</p><br>
+                    <p>Carrera: Ingenieria en Sistemas</p><br>
+                    <p>Año: 2022</p>
+                </div>
+            </div>
+            <div class="tareas">
+                <ul>
+                    <li><a href="#">Exposición: </a>
+                        <ul class="submenu">
+                            <li><img src="Portafolio/img/video.gif" alt="Gf de un video" width="15%"><a href="#">Presentacion</a></li>
+                            <li><img src="Portafolio/img/computadora.gif" alt="Gif de Computadora" width="15%"><a href="#">Ejemplo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Prácticas: </a>
+                        <ul class="submenu">
+                            <li><img src="Portafolio/img/cuaderno.gif" alt="Gif de un cuaderno" width="15%"><a href="#">Práctica # 1</a></li>
+                            <li><img src="Portafolio/img/cuaderno.gif" alt="Gif de un cuaderno" width="15%"><a href="#">Práctica # 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Proyectos: </a>
+                        <ul class="submenu">
+                            <li><img src="Portafolio/img/hacker.gif" alt="Gif de hacker" width="15%"><a href="#">Proyecto # 1: Hotel Aranjuez</a></li>
+                            <li><img src="Portafolio/img/hacker.gif" alt="Gif de hacker" width="15%"><a href="#">Proyecto # 2: </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
 
     </main>
     <footer>
-        <img src="Portafolio/img/LogoSample_ByTailorBrands.jpg" alt="Logo del Portal de tareas personal">
+        <div>
+            <img src="Portafolio/img/LogoSample_ByTailorBrands.jpg" alt="Logo del Portal de tareas personal">
+        </div>
+        <div class="sobreNosotros">
+            <h1>SOBRE NOSOTROS</h1>
+            <p>Esta página es un portal personal de tareas</p>
+            <cite>'tan solo es el comienzo'</cite>
+        </div>
+        <div class="box">
+            <h1>SIGUENOS</h1>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
     </footer>
 </body>
 
