@@ -1,0 +1,46 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+ 
+ header {
+     background: #023047;
+     height: 90px;
+ }
+ 
+ nav {
+     margin-top: 20px;
+     color: #fff;
+     text-align: center;
+ }
+ 
+ main {
+     background: #2a9d8f;
+     height: 300px;
+ }
+ 
+ main div {
+     color: #fff;
+     text-align: center;
+ }
+ 
+ #aside {
+     background: #caf0f8;
+     height: 300px;
+ }
+ 
+ #aside div {
+     color: #023047;
+     text-align: center;
+ }
+ 
+ footer {
+     background: #81b29a;
+     height: 100px;
+ }
+ 
+ footer div {
+     color: #caf0f8;
+     text-align: center;
+ }
