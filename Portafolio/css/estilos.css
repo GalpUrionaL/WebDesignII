@@ -132,6 +132,10 @@ p {
     font-size: 10px;
 }
 
+.tareas li img {
+    width: 15%;
+}
+
 .submenu {
     height: 60px;
     background-image: none;
