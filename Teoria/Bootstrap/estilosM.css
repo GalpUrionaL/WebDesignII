@@ -1,0 +1,27 @@
+.encabezado {
+    background: #860b51;
+    color: #fff;
+}
+
+.main {
+    background: aquamarine;
+}
+
+.articulo {
+    background: darkslateblue;
+    color: #fff;
+}
+
+.aside {
+    background: darkcyan;
+    color: #000;
+}
+
+.widget {
+    background: darkseagreen;
+}
+
+.pie {
+    background: lightgrey;
+    color: #860b51;
+}
