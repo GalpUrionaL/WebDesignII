@@ -58,6 +58,11 @@ main {
     text-align: center;
 }
 
+#cafes {
+    margin: 1%;
+    padding: 1%;
+}
+
 .cafe {
     height: auto;
     border-style: outset;
@@ -68,10 +73,19 @@ main {
     border-radius: 100px;
 }
 
+#ensaladas {
+    margin: 1%;
+    padding: 1%;
+}
+
+#ensaladas h2 {
+    padding: 1%;
+}
+
 .ensalada {
     height: auto;
     border-style: dashed;
-    margin-right: 22px;
+    margin-left: 35px;
 }
 
 .ensalada img {
