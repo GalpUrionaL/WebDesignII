@@ -51,6 +51,12 @@ main {
     text-align: center;
 }
 
+.referencia {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
 .b-example-divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
