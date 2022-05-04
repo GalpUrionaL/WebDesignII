@@ -3,3 +3,42 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.navegacion {
+    width: 100%;
+    background: #eee0cb;
+}
+
+.boton {
+    margin-left: 70%;
+}
+
+.barra {
+    margin-left: 10%;
+}
+
+.dropdown-menu:hover {
+    background: #B08968;
+}
+
+.dropdown-item:hover {
+    color: #000;
+}
+
+@media(max-width:950px) {
+    .boton {
+        margin-top: 50px;
+        margin-left: 160px;
+    }
+    .navbar-toggler-icon {
+        width: 30px;
+    }
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+}
