@@ -44,7 +44,13 @@ p {
 }
 
 main {
+    margin: 0px;
     background: #f7ede2;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
 }
 
 .b-example-divider {
