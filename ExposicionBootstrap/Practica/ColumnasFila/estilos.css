@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 2%;
+}
+
+.fila {
+    background: #d8f3dc;
+}
+
+.col {
+    background: #52b788;
+    border-style: dotted;
+}
+
+.col-6 {
+    background: #fcbf49;
+    border-style: double;
+}
+
+.anidar {
+    background: #98c1d9;
+}
+
+.level1 {
+    background: #ee6c4d;
+    border-style: dotted;
+}
+
+.level2 {
+    background: #dad7cd;
+    border-style: dashed;
+}
+
+.level2C {
+    background: #d4d700;
+    border-style: groove;
+}
+
+.level2Co {
+    background: #0d3b66;
+    color: #fff;
+}
+
+.coPrincipio {
+    border-style: double;
+    margin: 1%;
+}
+
+.principio {
+    background: #e0aaff;
+    margin: 1%;
+}
+
+.coCentro {
+    border-style: double;
+    height: 200px;
+    margin: 1%;
+}
+
+.centro {
+    background: #f07167;
+    margin: 1%;
+}
+
+.coFinal {
+    border-style: double;
+    height: 200px;
+    margin: 1%;
+}
+
+.final {
+    background: #3d405b;
+    color: #fff;
+    margin: 1%;
+}
+
+.contenedor {
+    border-style: dashed;
+    height: 200px;
+}
+
+.horizontal {
+    height: 210px;
+    border-style: dashed;
+}
+
+.alrededor {
+    background: #f2cc8f;
+    margin: 1%;
+}
+
+.entre {
+    background: #01497c;
+    color: #52b788;
+    margin: 1%;
+}
+
+.alfinal {
+    background: #b56576;
+    color: aliceblue;
+    margin: 1%;
+}
+
+.ordenar {
+    height: 80px;
+    border-style: dashed;
+}
+
+.sinO {
+    background: #b56576;
+    color: #d8f3dc;
+    margin: 1%;
+}
+
+.o {
+    background: #6a4c93;
+    color: #d8f3dc;
+    margin: 1%;
+}

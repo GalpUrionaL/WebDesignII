@@ -1,0 +1,34 @@
+
+.row > div{
+    background: #f2f2f2;
+    padding: 30px;
+    border: 1px solid grey;
+  }
+  img{
+    width: 100%;
+  }
+ .container{
+   width: 100%;
+  margin-bottom: 25px;
+ }
+ .container-fluid{
+  background: azure;
+}
+.barra{
+  background-color: black;
+}
+
+.row1 {
+  color: white;
+  display: flex;
+}
+.col1{
+  width: 100%;
+  /* border:1px solid #f2f2f2; */
+  padding: 15px;
+  box-sizing: border-box;
+}
+.col1:hover{
+  background-color:blue;
+}
+
