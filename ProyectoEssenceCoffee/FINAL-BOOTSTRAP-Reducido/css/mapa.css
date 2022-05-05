@@ -53,6 +53,25 @@ h1 {
     margin-top: 10px;
 }
 
+.sucursales {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #eee0cb;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+}
+
+@media(max-width:923px) {
+    .sucursales {
+        display: block;
+    }
+}
+
 .b-example-divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
