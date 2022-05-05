@@ -51,6 +51,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    padding-left: 20px;
+}
+
 .titulo {
     text-align: left;
 }
@@ -81,26 +85,26 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.offcanvas-body img{
+
+.offcanvas-body img {
     width: 190px;
     height: 300px;
     padding-top: 23px;
     margin-left: 50px;
-    
 }
 
-.offcanvas-header{
+.offcanvas-header {
     background-color: #B08968;
 }
 
-.offcanvas-body{
+.offcanvas-body {
     background-color: #f7ede2;
- }
- .offcanvas-body h4{
-    
+}
+
+.offcanvas-body h4 {
     text-align: center;
- }
- .btn-primary{
-     
+}
+
+.btn-primary {
     margin-left: 23px;
- }
+}
