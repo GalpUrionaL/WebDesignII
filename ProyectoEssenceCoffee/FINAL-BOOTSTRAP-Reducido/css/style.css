@@ -13,8 +13,16 @@ body {
     background: #eee0cb;
 }
 
-.boton {
-    margin-left: 70%;
+.cajaB {
+    padding-left: 0px;
+    margin-bottom: 30px;
+}
+
+@media(max-width:370px) {
+    .cajaB {
+        margin-left: 0px;
+        padding-right: 70%;
+    }
 }
 
 .barra {
