@@ -13,15 +13,8 @@ body {
     background: #eee0cb;
 }
 
-.cajaB {
-    padding-left: 0px;
-    margin-bottom: 30px;
-}
-
-@media(max-width:350) {
-    .cajaB {
-        padding-right: 130px;
-    }
+.boton {
+    margin-left: 60%;
 }
 
 .barra {
@@ -88,3 +81,26 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.offcanvas-body img{
+    width: 190px;
+    height: 300px;
+    padding-top: 23px;
+    margin-left: 50px;
+    
+}
+
+.offcanvas-header{
+    background-color: #B08968;
+}
+
+.offcanvas-body{
+    background-color: #f7ede2;
+ }
+ .offcanvas-body h4{
+    
+    text-align: center;
+ }
+ .btn-primary{
+     
+    margin-left: 23px;
+ }
