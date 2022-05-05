@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/HotelAranjuez/img/logoHotelAranjuez.png.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Courgette&family=Great+Vibes&family=Open+Sans:ital,wght@0,300;0,400;1,500&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/formReserva.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.datetimepicker.full.js"></script>
+    <script src="js/reserv-event.js"></script>
+    <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+    <title>Reserve Event Space | Hotel Aranjuez</title>
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <a href="../HotelAranjuez/index.html"><img src="../HotelAranjuez/img/logo2.png" alt=""></a>
+            <ul class="menu">
+                <li><a href="../rooms/index.html">Rooms</a></li>
+                <li><a href="../reserves/index.html">Reserves</a></li>
+                <li><a href="../services/index.html">Service</a>
+                    <ul class="sub-menu">
+                        <li><a href="../events/index.html">Events</a></li>
+                        <li><a href="../wedding/index.html">Weddings</a></li>
+                        <li><a href="../reserve-event-space/index.html">Reserve Event Space</a></li>
+                    </ul>
+                </li>
+                <li><a href="../gallery/index.html">Gallery</a></li>
+                <li><a href="../contact/index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="23">RESERVE & EVENT SPACE</h1>
+        <div class="form" id="form">
+            <form action=""> 
+                <label for="" class="formI">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre..." class="formI" required><br>
+                <label for="">Apellido Paterno: </label>
+                <input type="text" name="apPaterno" id="apPaterno" placeholder="Apellido Paterno" required><br>
+                <label for="">Apellido Materno</label>
+                <input type="text" name="apMaterno" id="apMaterno" placeholder="Apellido Materno" required><br>
+                <label for="">Ingrese la fecha y hora:</label>
+                <input id="datetimePicker" placeholder="fecha & Hora" required><br>
+                <label for="">Solicite el lugar:</label>
+                <select name="ambientes" id="ambientes">
+                    <option value="Boda">Boda</option>
+                    <option value="Entretenimiento">Entretenimiento</option>
+                    <option value="Ambiente">Ambiente Familiar</option>
+                    <option value="Salon">Salon de Eventos</option>
+                </select><br>
+                <label for="">Ingrese el comprobante:</label>
+                <input type="file"> <br>
+                <button class="btn" id="btn">Registrar</button>
+            </form>
+        </div>
+        <a href="https://api.whatsapp.com/send?phone=+51987654321" class="btn-wsp" target="_blank">
+            <i class="fa fa-whatsapp icono"></i>
+        </a>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../rooms/img/5.png">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Declarado Monumento Histórico en Cochabamba, el Gran Hotel Aranjuez es uno de los hoteles más prestigiosos de Bolivia. Como huésped nuestro, disfrutará de un ambiente cálido y acogedor y una hospitalidad impecable y personalizada de un
+                    personal amable dedicado a hacer de su estadía una experiencia fabulosa.</p>
+            </div>
+
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Hotel Aranjuez</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
